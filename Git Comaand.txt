@@ -1,0 +1,43 @@
+git --version // to show the version of your Git (I highly encourage you to download and install the latest version )
+
+git config --global user.name "your name "  // to config your name 
+
+git config --global user.email  zakariabouregbidev  // to change your email configuration 
+
+git config --global -e // it open your default editor to edit all the configuration  
+
+git config --global core.autocrlf true // If you’re programming on Windows and working with people who are not (or vice-versa), you’ll probably run into line-ending issues at some point,This is because Windows uses both a carriage-return character and a linefeed character for newlines in its files
+
+git config --global core.autocrlf input // If you’re on a Linux or macOS system that uses LF line endings, then you don’t want Git to automatically convert them when you check out files; however, if a file with CRLF endings accidentally gets introduced, then you may want Git to fix it. You can tell Git to convert CRLF to LF on commit but not the other way around by setting core.autocrlf to input:
+
+git config --help // to show you all the command of git 
+
+git init  // to initialize an empty git repo
+
+ls // to list all the file in the folder 
+
+rm -rf .git // to remove the init git repo
+
+git status // to see the status of the working directory on the staging area 
+
+git add . // to add all the files to the staging area 
+
+git add *.txt // to add all the files that ends with .txt  to the staging area 
+
+git add filename  // to add the specific file to the staging area  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
