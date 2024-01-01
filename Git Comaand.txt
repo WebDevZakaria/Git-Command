@@ -26,6 +26,30 @@ git add *.txt // to add all the files that ends with .txt  to the staging area
 
 git add filename  // to add the specific file to the staging area  
 
+git commit -m "initial command"  // to commitin the changes made 
+
+git rm "file name"  // to remove a file  from both workin directory and staging area
+
+git rm --cached -r file name // to remaove the file just from the staging area 
+
+git mv file1 file2 // rename file1 to file2
+
+git diff --staged // to see what we have in the staging area that is going to be committed
+
+git status -s //  to see short status instead of long status that is maybe very wordy
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
