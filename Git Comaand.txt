@@ -38,6 +38,12 @@ git diff --staged // to see what we have in the staging area that is going to be
 
 git status -s //  to see short status instead of long status that is maybe very wordy
 
+git log // to see all the history of what we commit so far 
+
+git show "the selected identify"  // to see the content of a specific commit 
+
+git restore --staged "namefile" // to unstaging the specific file 
+
 
 
 
