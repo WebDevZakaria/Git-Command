@@ -44,6 +44,25 @@ git show "the selected identify"  // to see the content of a specific commit
 
 git restore --staged "namefile" // to unstaging the specific file 
 
+git restore --source=HEAD~1 filename  // to restore a file to an earlier Version
+
+git log --oneline --stat  // if you want to see all the files that have been changed in each commit 
+
+git log --oneline -3  // to see the last 3 commit 
+
+git log --oneline --author="author name" // to see all the commit of a specific author
+
+git log --oneline --after="2024-1-1" // to see all the commit on this date and after 
+
+git config --global alias.lg "log --pretty=format:'%an committed %h'"  // if you want to change a cammand that is use a lot to a small command so we don't have to type them in their long form (in this exemple we change "log --pretty=format:'%an committed %h"  to lg) 
+
+
+
+
+
+
+
+
 
 
 
